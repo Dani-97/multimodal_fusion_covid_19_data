@@ -1,0 +1,12 @@
+,operation_point = 0.5,
+noftopfeatures,20,28
+accuracy,74.39\% $\pm$ 1.69\%,76.03\% $\pm$ 1.44\%
+mcc,0.4111 $\pm$ 0.0330,0.4462 $\pm$ 0.0287
+f1_score,57.53\% $\pm$ 3.07\%,59.88\% $\pm$ 2.37\%
+precision,49.58\% $\pm$ 4.61\%,51.96\% $\pm$ 3.85\%
+recall,68.91\% $\pm$ 1.44\%,71.12\% $\pm$ 3.53\%
+specificity,76.30\% $\pm$ 2.17\%,77.82\% $\pm$ 1.79\%
+auc_roc,0.8199 $\pm$ 0.0184,0.8300 $\pm$ 0.0158
+nof_imaging_features,0,0
+nof_clinical_features,20,28
+best_result,,X (AUC-ROC = 0.8300)

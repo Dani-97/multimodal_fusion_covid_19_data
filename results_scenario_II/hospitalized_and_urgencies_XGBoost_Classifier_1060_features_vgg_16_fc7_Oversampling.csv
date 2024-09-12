@@ -1,0 +1,36 @@
+performance_metrics_values
+repetition,accuracy,f1_score,mcc,precision,specificity,recall,auc_roc,confusion_matrix
+0,0.7922705314009661,0.8735294117647059,0.30235958170324206,0.9054878048780488,0.5,0.84375,0.7251649560117303,"[[ 31  31]
+ [ 55 297]]"
+1,0.7874396135265701,0.8698224852071006,0.3128195728859927,0.91875,0.5517241379310345,0.8258426966292135,0.7598798915149166,"[[ 32  26]
+ [ 62 294]]"
+2,0.8019323671497585,0.8783382789317506,0.36650708479142385,0.925,0.6,0.8361581920903954,0.7750235404896422,"[[ 36  24]
+ [ 58 296]]"
+3,0.782608695652174,0.8672566371681416,0.29703064026773673,0.9245283018867925,0.5555555555555556,0.8166666666666667,0.7424639917695474,"[[ 30  24]
+ [ 66 294]]"
+4,0.7415458937198067,0.8390977443609022,0.22779730606946438,0.9177631578947368,0.5283018867924528,0.7728531855955678,0.7219986410913082,"[[ 28  25]
+ [ 82 279]]"
+
+metrics_summary
+mean,0.7811594202898551,0.8656089114865202,0.301302837143572,0.9183058529319157,0.5471163160558085,0.8190541481963687,0.7449062041754289
+std,0.02081223113868409,0.01377012930945472,0.04428692941981874,0.007047334480467016,0.03305470254125331,0.02485456423659873,0.020256865434480787
+
+parameters
+logs_file_path,../heliyon_results/results_scenario_II/hospitalized_and_urgencies_XGBoost_Classifier_1060_features_vgg_16_fc7_Oversampling.csv
+experiment_name,hospitalized_and_urgencies_vgg_16_fc7_Oversampling
+model,XGBoost_Classifier
+dataset_path,../built_dataset/hospitalized_and_urgencies_vgg_16_fc7_only_imaging_features.csv
+preprocessing,Standardization
+manual_seeds,"[0, 1, 2, 3, 4]"
+balancing,Oversampling
+imputation,No_Imputation_Model
+csv_path_with_attrs_types,../original_dataset/attrs_headers_types.csv
+feature_retrieval,MutualInformation
+store_features_selection_report,True
+splitting,Cross_Val_And_Holdout
+noftopfeatures,1060
+nof_folds,5
+nofsplits,5
+n_neighbors,5
+test_size,0.2
+plot_data,False
